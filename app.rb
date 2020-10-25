@@ -6,6 +6,10 @@ class App < Sinatra::Base
     erb :index
   end
   
+  post '/' do
+    erb :display_puppy
+  end 
+  
 
   
 end
